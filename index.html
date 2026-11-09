@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <!-- Header Title -->
+    <h1>Tic Tac Toe</h1>
+
+    <!-- Game Status Display (Shows turn, winner, or draw) -->
+    <div id="status" class="status">Player X's Turn</div>
+
+    <!-- 3x3 Game Board -->
+    <div id="board" class="board">
+      <button class="cell" data-cell-index="0" aria-label="Cell 1"></button>
+      <button class="cell" data-cell-index="1" aria-label="Cell 2"></button>
+      <button class="cell" data-cell-index="2" aria-label="Cell 3"></button>
+      <button class="cell" data-cell-index="3" aria-label="Cell 4"></button>
+      <button class="cell" data-cell-index="4" aria-label="Cell 5"></button>
+      <button class="cell" data-cell-index="5" aria-label="Cell 6"></button>
+      <button class="cell" data-cell-index="6" aria-label="Cell 7"></button>
+      <button class="cell" data-cell-index="7" aria-label="Cell 8"></button>
+      <button class="cell" data-cell-index="8" aria-label="Cell 9"></button>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls">
+      <button id="restartBtn" class="btn">Restart Game</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
